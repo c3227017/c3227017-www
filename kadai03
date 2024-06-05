@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Styled Web Page</title>
+<style>
+body {font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;}
+.container {max-width: 800px;
+margin: 0 auto;
+padding: 20px;}
+h1 {color: #333;}
+p {color: #666;line-height: 1.6;}
+ul {list-style-type: none;padding: 0;}
+li {margin-bottom: 10px;}
+img {max-width: 100%;
+height: auto;}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Introduction</h1>
+<p>Welcome to my styled web page! This is a paragraph of text styled with CSS.</p >
+<h1>About Me</h1>
+<p>I am learning HTML and CSS to create beautifully styled web pages.</p >
+<h1>My Hobbies</h1>
+<ul>
+<li>Reading</li>
+<li>Coding</li>
+<li>Traveling</li>
+</ul>
+<h1>Favorite Websites</h1>
+<ul>
+<li><a href=" ">岐阜協立大学のサイトへ</a ></li>
+<li><a href="#">岐阜県のサイトへ</a ></li>
+</ul>
+<h1>My Favorite Image</h1>
+< img src="path_to_your_favorite_image.jpg" alt="Favorite Image">
+<h1>Contact Information</h1>
+<!-- Insert your image below this line -->
+< img src="path_to_your_bottom_image.jpg" alt="Bottom Image">
+</div>
+</body>
+</html>
